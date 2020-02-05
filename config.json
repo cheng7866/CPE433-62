@@ -20,6 +20,14 @@
             "Class" : "DNWS.DelayPlugin",
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
+        },
+          {
+              
+            "Path" : "clientinfo",
+            "Class" : "DNWS.clientinfo",
+            "Preprocessing" : "true",
+            "Postprocessing" : "false" ,
+            "Singleton" : "false"
         }
     ]
 }
